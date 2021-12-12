@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 2.4rem;
+  color:rgb(5, 151, 5);
+  margin: 20px;
+}
+gallery-img{
+    border: 2px solid red;
+display: flex;
+justify-content: space-around;
+margin: 20px;
+padding: 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+padding: 20px;
+}
+
+footer{ background-image: url("greenfooter2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 30px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+footer .menu-items { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+   flex-wrap: wrap;
+   z-index: 1;
+   
+  
+}
+footer p { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem; 
+    margin: 10px;
+    padding: 10px;
+   flex-wrap: wrap;
+color: rgb(2, 66, 47);
+font-weight: 600;
+
+}
+
+.menu-items li{
+    list-style: none;
+   margin: 10px ;
+   padding: 10px;
+   font-weight: 600;
+ }
+.menu-items li a{ display: inline-block;
+    color: green;
+    text-decoration: none;
+    text-transform: capitalize;
+}

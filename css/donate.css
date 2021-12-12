@@ -1,0 +1,85 @@
+section{ margin-left: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  
+    width: 800px;
+    height: 500px;
+    font-family: sans-serif;
+    color:#fff;
+    background-color: rgb(10, 10, 80);
+    box-shadow: 12px 12px 2px 1px rgb(212, 212, 252);
+}
+h1{ 
+    font-size: 2.4rem;
+    padding: 10px 10px 30px ;
+    border-bottom: 2px solid white;
+}
+p{
+    font-size: 1.5rem;
+   
+    padding: 10px ;
+}
+.btn{
+    display: block;
+    margin: 10px;
+    padding: 15px 15px;
+    border: none;
+    background-color: white;
+    color: rgb(10, 10, 80);
+    font-size: 1.2rem;
+    width: 30%;
+    font-weight: 600;
+}
+.btn:hover{ 
+    background-color: whitesmoke;
+    color: rgb(52, 55, 252);
+    transition: 0.2s;
+}
+
+footer{ background-image: url("bluefooter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 30px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+footer .menu-items { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+   flex-wrap: wrap;
+   z-index: 1;
+   
+  
+}
+footer p { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem; 
+    margin: 10px;
+    padding: 10px;
+   flex-wrap: wrap;
+color: rgb(10, 10, 80);;
+font-weight: 600;
+
+}
+
+.menu-items li{
+    list-style: none;
+   margin: 10px ;
+   padding: 10px;
+   font-weight: 600;
+ }
+.menu-items li a{ display: inline-block;
+    color: rgb(9, 62, 161);;
+    text-decoration: none;
+    text-transform: capitalize;
+}
